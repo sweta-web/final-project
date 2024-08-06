@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
   const navigate = useNavigate();
 
   const login = (email, password) => {
-    if (email === 'hrusi@gmail.com' && password === '12345') {
+    if (email === 'sweta@gmail.com' && password === '12345') {
       setUser({ email, role: 'admin' });
       navigate('/admin');
     } else {
